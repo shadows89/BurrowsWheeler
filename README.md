@@ -19,16 +19,19 @@ The implementation consists of a single object named BurrowsWheeler that has two
      * input: a string you would like to get its Burrows-Wheeler transform
             must have  the terminating symbol "|"
      *  output: - a string which is the Burrows-Wheeler transformation of the input string
-    *  example:
-    *         input = "^BANANA|"
-    *         output = "BNN^AA|A"
+    *  example: 
+             ```sh
+             input = "^BANANA|"
+             output = "BNN^AA|A"
+             ```
  - inverse - preforms the inverse Burrows-Wheeler transform
    * input: a string that is an output of the regular Burrows-Wheeler transform
    * output: the original string before the Burrows-Wheeler transform (the original string must end with the "|" symbol)
    *    example:
-   *          input = "BNN^AA|A"
-   *          output = "^BANANA|"
-
+             ```sh
+             input = "BNN^AA|A"
+             output = "^BANANA|"
+             ```
 Further explanation and documentation of auxiliry function can be found in the BurrowsWheeler.scala file.
 
 #### Running Example
