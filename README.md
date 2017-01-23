@@ -1,6 +1,5 @@
 # Burrows-Wheeler
 * Submiter : Alexander Bogachenko
-* ID: 312867187
 * Project type: Small mini project
 * Files: 
         ```
