@@ -20,8 +20,8 @@ The implementation consists of a single object named BurrowsWheeler that has two
             must have  the terminating symbol "|"
      *  output: - a string which is the Burrows-Wheeler transformation of the input string
     *  example: 
-             ```sh
-             input = "^BANANA|"
+             ```
+             input = "^BANANA|" , 
              output = "BNN^AA|A"
              ```
              
@@ -29,8 +29,8 @@ The implementation consists of a single object named BurrowsWheeler that has two
    * input: a string that is an output of the regular Burrows-Wheeler transform
    * output: the original string before the Burrows-Wheeler transform (the original string must end with the "|" symbol)
    *    example:
-             ```sh
-             input = "BNN^AA|A"
+             ```
+             input = "BNN^AA|A" , 
              output = "^BANANA|"
              ```
              
